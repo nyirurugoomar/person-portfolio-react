@@ -5,7 +5,7 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Titillium Web', sans-serif;
-     background-color: var(--mainColor);
+     background-color:var(--mainColor);
 }
 
 :root{
@@ -13,6 +13,7 @@
     --mainColorLight:#5765aa;
     --secondaryColor:#DB2B39;
     --textColor:#eee;
+    --background:#01030a;
 
 }
 header{
@@ -89,4 +90,36 @@ header .nav-btn{
     nav a{
         font-size: 1.5rem;
     }
+}
+
+.intro {
+    margin-top: 8%;
+    display: flex;
+}
+.left{
+    flex: 0.5;
+    overflow: hidden;
+    
+    
+}
+.right{
+    flex: 0.5;
+    
+}
+.ImgContainer{
+    width: 700px;
+    height: 700px;
+    
+    
+
+}
+.ImgContainer img{
+    height: 80%;
+    background-color: #eee;
+    border-radius: 0% 100% 18% 82% / 63% 19% 81% 37%  ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+
 }
