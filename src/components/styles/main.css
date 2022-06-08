@@ -97,6 +97,18 @@ header .nav-btn{
     margin-top: 8%;
     display: flex;
 }
+
+@media screen and (max-width:550px) {
+    .intro{
+        flex-direction: column;
+    }
+    .ImgContainer img{
+           height: 70%;
+           width: 80%;
+           
+           
+    }
+}
 .left{
     flex: 0.5;
     overflow: hidden;

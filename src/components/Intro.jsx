@@ -9,6 +9,7 @@ function Intro() {
     useEffect(()=>{
    init(textRef.current, {
        showCursor:false,
+       backDelay:1500,
        strings:['Frontend ','UI/UX ']
    })
     },[])
