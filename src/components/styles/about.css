@@ -1,0 +1,19 @@
+.about-section{
+    display: flex;
+    
+}
+.about-section_topic h1{
+    display: flex;
+    margin-left: 10%;
+    border-left: 10px solid var(--secondaryColor);
+    
+    
+
+}
+.about-section_content p{
+    margin: 20px 8rem;
+    font-size: 1.4rem;
+    color: white;
+    /* columns: 150px auto; */
+
+}

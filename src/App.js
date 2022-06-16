@@ -1,13 +1,17 @@
-import React from 'react'
-import Navbar from './components/Navbar';
+import React,{useState} from 'react';
 import Intro from './components/Intro';
+import About from './components/About';
+import Project from './components/Project';
 import './App.css'; 
 
+
 function App() {
+
   return (
       <>
-          <Navbar/>
-          <Intro />
+          <Intro/>
+          <About/>
+          <Project/>
       </>
 
     );
