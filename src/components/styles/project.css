@@ -1,4 +1,4 @@
-/* CONTACT SESSION START*/
+/* PROJECT SESSION START*/
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +7,8 @@
 
 .section-title{
     text-align: center;
+    border-bottom: 2px solid #eee;
+   
 }
 
 #contact .contact {
@@ -15,26 +17,29 @@
     margin: 10rem 10rem;
   }
   #contact .contact-items {
-    width: 50%;
+    flex-direction: row;
     display: flex;
+    justify-content: center;
     
   }
-  #contact .contact-item {
-    width: 100%;
+  #contact .contact-item{
+    
+    width: 30rem;
     text-align: center;
     border-radius: 10px;
-    padding: 40px;
+    padding: 10px;
     margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 18px 0 black;
+    box-shadow: 0px 20px 18px 0 var(--secondaryColor);
     transition: 0.3s ease box-shadow;
+    cursor: pointer;
   }
-  #contact .contact-item:hover {
+  /* #contact .contact-item:hover {
     box-shadow: 0px 0px 5px black;
-  }
+  } */
   #contact .icon {
     width: 70px;
     margin: 0 auto;
@@ -52,5 +57,17 @@
     line-height: 2rem;
     font-weight: 500;
   }
+  .contact-info img{
+      width: 20rem;
+      height: 15rem
+  }
+  .contact-item p{
+      margin: 40px;
+     font-size: 12px;
+     color: white;
+  }
+  .project2{
+    margin-top: -10rem;
+  }
   
-  /* CONTACT SESSION END*/
+  /* PROJECT SESSION END*/
