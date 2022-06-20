@@ -6,36 +6,38 @@ import projectImage from '../assets/projectImage.png'
 function Project() {
   return (
     <section id="contact">
-        <div class="contact container">
+        <div className="contact container">
             <div>
-                <h1 class="section-title">Projects</h1>
+                <div className="section-title">
+                    <h1>Projects</h1>
+                </div>
                 
             </div>
-            <div class="contact-items">
+            <div className="contact-items">
 
                 
 
-                <div class="contact-item">
-                    <div class="icon"></div>
-                    <div class="contact-info">
-                    <img src={projectImage}/>
-                    <p>PHONEPHONEPHONEPHOHONEPHONE</p>
+                <div className="contact-item">
+                    
+                    <div className="contact-info">
+                     <img src={projectImage} alt='projectImage'/>
+                     <p>PHONEPHONEPHONEPHOHONEPHONE</p>
                         
                     </div>
                 </div>
 
-                <div class="contact-item">
-                    <div class="icon"></div>
-                    <div class="contact-info">
-                     <img src={projectImage}/>
+                <div className="contact-item">
+                    
+                    <div className="contact-info">
+                     <img src={projectImage} alt='projectImage'/>
                         <p>PHONEPHONEPHONEPHOHONEPHONE</p>
                         
                     </div>
                 <div/>    
-                </div><div class="contact-item">
-                    <div class="icon"></div>
-                    <div class="contact-info">
-                     <img src={projectImage}/>
+                </div><div className="contact-item">
+                    
+                    <div className="contact-info">
+                     <img src={projectImage} alt='projectImage'/>
                         <p>PHONEPHONEPHONEPHOHONEPHONE</p>
                         
                     </div>
@@ -44,43 +46,7 @@ function Project() {
             </div>
         </div>
 {/* ----------------------------------------------------------------- */}
-     <div className="project2">
-
-        <div class="contact container">
-            
-            <div class="contact-items">
-
-                <div class="contact-item">
-                    <div class="icon"></div>
-                    <div class="contact-info">
-                    <img src={projectImage}/>
-                    <p>PHONEPHONEPHONEPHOHONEPHONE</p>
-                        
-                    </div>
-                </div>
-
-                <div class="contact-item">
-                    <div class="icon"></div>
-                    <div class="contact-info">
-                     <img src={projectImage}/>
-                        <p>PHONEPHONEPHONEPHOHONEPHONE</p>
-                        
-                    </div>
-                <div/>    
-                </div><div class="contact-item">
-                    <div class="icon"></div>
-                    <div class="contact-info">
-                     <img src={projectImage}/>
-                        <p>PHONEPHONEPHONEPHOHONEPHONE</p>
-                        
-                    </div>
-                </div>
-
-            </div>
-        </div>
-      </div>
-
-    </section>
+     </section>
 
     
   )
