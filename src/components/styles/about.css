@@ -28,6 +28,20 @@
         margin-left:10%;
         width: 21rem;
     }
-    
-    
+
+}
+
+@media screen and (max-width:390px){
+    .about-section_content p{
+         width: 22rem;
+         height: 15rem;
+    }
+}
+
+@media screen and (max-width:375px){
+    .about-section_content p{
+        font-size: 1.5rem;
+        justify-content: center;
+        margin-left: 1rem;
+    }
 }

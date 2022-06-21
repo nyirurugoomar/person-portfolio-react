@@ -21,8 +21,8 @@ function Project() {
                     
                     <div className="contact-info">
                      <img src={projectImage} alt='projectImage'/>
-                     <p>PHONEPHONEPHONEPHOHONEPHONE</p>
-                        
+                     <p>PHONEPHONEPHONEPHOHONEPHONE</p>  
+                     
                     </div>
                 </div>
 
@@ -33,8 +33,11 @@ function Project() {
                         <p>PHONEPHONEPHONEPHOHONEPHONE</p>
                         
                     </div>
-                <div/>    
-                </div><div className="contact-item">
+
+                    
+                  
+                </div>
+                <div className="contact-item">
                     
                     <div className="contact-info">
                      <img src={projectImage} alt='projectImage'/>
