@@ -1,6 +1,8 @@
 import React from 'react'
 import '../components/styles/project.css';
 import projectImage from '../assets/projectImage.png'
+import movieProject from '../assets/movieProject.png'
+import myPortfolio from '../assets/myPortfolio.png'
 
 
 function Project() {
@@ -20,7 +22,7 @@ function Project() {
                 <div className="contact-item">
                     
                     <div className="contact-info">
-                     <img src={projectImage} alt='projectImage'/>
+                     <img src={movieProject} alt='projectImage'/>
                      <p>PHONEPHONEPHONEPHOHONEPHONE</p>  
                      
                     </div>
@@ -40,7 +42,7 @@ function Project() {
                 <div className="contact-item">
                     
                     <div className="contact-info">
-                     <img src={projectImage} alt='projectImage'/>
+                     <img src={myPortfolio} alt='projectImage'/>
                         <p>PHONEPHONEPHONEPHOHONEPHONE</p>
                         
                     </div>

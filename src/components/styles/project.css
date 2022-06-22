@@ -26,14 +26,15 @@
     
     width: 30rem;
     text-align: center;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 20px;
+    padding: 15px;
     margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid var(--secondaryColor);
     
-    transition: 0.3s ease box-shadow;
+    
     cursor: pointer;
   }
   /* #contact .contact-item:hover {
