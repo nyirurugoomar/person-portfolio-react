@@ -24,6 +24,7 @@ function Project() {
                     <div className="contact-info">
                      <img src={movieProject} alt='projectImage'/>
                      <button className='ProjecBtn'>LIVE DEMO</button>
+                     <button className='ProjecBtnGit'>Git</button>
                      <p>PHONEPHONEPHONEPHOHONEPHONE</p>  
                      
                     </div>
@@ -34,6 +35,7 @@ function Project() {
                     <div className="contact-info">
                      <img src={projectImage} alt='projectImage'/>
                      <button className='ProjecBtn'>LIVE DEMO</button>
+                     <button className='ProjecBtnGit'>Git</button>
 
 
                         <p>PHONEPHONEPHONEPHOHONEPHONE</p>
@@ -48,6 +50,7 @@ function Project() {
                     <div className="contact-info">
                      <img src={myPortfolio} alt='projectImage'/>
                      <button className='ProjecBtn'>LIVE DEMO</button>
+                     <button className='ProjecBtnGit'>Git</button>
                         <p>PHONEPHONEPHONEPHOHONEPHONE</p>
                         
                     </div>

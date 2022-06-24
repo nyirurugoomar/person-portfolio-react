@@ -58,15 +58,39 @@
   }
 
   .ProjecBtn {
-    color: var(--ButtonColor);
+    color: var(--secondaryColor);
     font-weight: 700;
     cursor: pointer;
     margin: 10px;
+    padding: 0.3rem;
     font-size: 2rem;
     float: left;
+    border: 2px double white;
+    border-radius: 10px;
   }
   
-  
+  /* .ProjecBtn:hover{
+    background-color: var(--secondaryColor);
+    color: white;
+  } */
+  .ProjecBtnGit {
+    background-color: #130F40;
+    color: var(--secondaryColor);
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+    padding: 0.3rem;
+    width: 4rem;
+    font-size: 2rem;
+    float: right;
+    border: 2px double white;
+    border-radius: 10px;
+  }
+  .ProjecBtnGit:hover{
+    background-color: yellow;
+    color: #130F40;
+  }
+
   /* PROJECT SESSION END*/
 
   /* mobile */
@@ -84,11 +108,15 @@
       flex-direction: column;
       display: flex;
       justify-content: center;
-      margin-left: -15rem;
+      margin-left: -12rem;
+      width: 10rem;
+      
     } 
     .contact-item p{
      font-size: 15px;
      color: white;
   }
-    
+  #contact .contact-item{
+    border-style: none;
+  }
   }
