@@ -49,7 +49,7 @@ function Project() {
                      <img src={myPortfolio} alt='projectImage'/>
                      <button className='ProjectBtn'>LIVE DEMO</button>
                      <button className='ProjectBtnGit'>Git</button>
-                        <h3>PERSONAL </h3>
+                        <h3>PERSONAL BLOG </h3>
                         
                     </div>
                 </div>

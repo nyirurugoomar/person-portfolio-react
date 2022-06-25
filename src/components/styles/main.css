@@ -93,6 +93,15 @@ span{
     font-size: inherit;
     color: var(--secondaryColor);
 }
+
+
+@media screen and (max-width:600px){
+    .wrapper{
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+}
 /* ----------About css --------------- */
 
 
