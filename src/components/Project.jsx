@@ -7,51 +7,49 @@ import myPortfolio from '../assets/myPortfolio.png'
 
 function Project() {
   return (
-    <section id="contact">
-        <div className="contact container">
+    <section id="project">
+        <div className="project container">
             <div>
                 <div className="section-title">
                     <h1>Projects</h1>
                 </div>
                 
             </div>
-            <div className="contact-items">
+            <div className="project-items">
 
                 
 
-                <div className="contact-item">
+                <div className="project-item">
                     
-                    <div className="contact-info">
+                    <div className="project-info">
                      <img src={movieProject} alt='projectImage'/>
-                     <button className='ProjecBtn'>LIVE DEMO</button>
-                     <button className='ProjecBtnGit'>Git</button>
-                     <p>PHONEPHONEPHONEPHOHONEPHONE</p>  
+                     <button className='ProjectBtn'>LIVE DEMO</button>
+                     <button className='ProjectBtnGit'>Git</button>
+                     <h3>WATCH FREE MOVIES APP</h3>  
                      
                     </div>
                 </div>
 
-                <div className="contact-item">
+                <div className="project-item">
                     
-                    <div className="contact-info">
+                    <div className="project-info">
                      <img src={projectImage} alt='projectImage'/>
-                     <button className='ProjecBtn'>LIVE DEMO</button>
-                     <button className='ProjecBtnGit'>Git</button>
-
-
-                        <p>PHONEPHONEPHONEPHOHONEPHONE</p>
+                     <button className='ProjectBtn'>LIVE DEMO</button>
+                     <button className='ProjectBtnGit'>Git</button>
+                        <h3>ARTIFICIAL-I APP</h3>
                         
                     </div>
 
                     
                   
                 </div>
-                <div className="contact-item">
+                <div className="project-item">
                     
-                    <div className="contact-info">
+                    <div className="project-info">
                      <img src={myPortfolio} alt='projectImage'/>
-                     <button className='ProjecBtn'>LIVE DEMO</button>
-                     <button className='ProjecBtnGit'>Git</button>
-                        <p>PHONEPHONEPHONEPHOHONEPHONE</p>
+                     <button className='ProjectBtn'>LIVE DEMO</button>
+                     <button className='ProjectBtnGit'>Git</button>
+                        <h3>PERSONAL </h3>
                         
                     </div>
                 </div>
