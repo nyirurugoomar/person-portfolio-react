@@ -1,0 +1,6 @@
+.skills-title h1{
+    text-align: center;
+    color:var(--secondaryColor);
+    font-size: 5rem;
+    margin-top: -7rem;
+}

@@ -23,9 +23,12 @@ function Project() {
                     
                     <div className="project-info">
                      <img src={movieProject} alt='projectImage'/>
+                     <div className='project-button'>
                      <button className='ProjectBtn'>LIVE DEMO</button>
                      <button className='ProjectBtnGit'>Git</button>
-                     <h3>WATCH FREE MOVIES APP</h3>  
+                     </div>
+                     
+                     <h3>WATCH  MOVIES APP</h3>  
                      
                     </div>
                 </div>
@@ -34,8 +37,10 @@ function Project() {
                     
                     <div className="project-info">
                      <img src={projectImage} alt='projectImage'/>
-                     <button className='ProjectBtn'>LIVE DEMO</button>
+                     <div className='project-button'>
+                     <button className='ProjectBtn'><a href='https://nyirurugoomar.github.io/nyirurugo-omar/index.html'> LIVE DEMO</a></button>
                      <button className='ProjectBtnGit'>Git</button>
+                     </div>
                         <h3>ARTIFICIAL-I APP</h3>
                         
                     </div>
@@ -47,8 +52,10 @@ function Project() {
                     
                     <div className="project-info">
                      <img src={myPortfolio} alt='projectImage'/>
-                     <button className='ProjectBtn'>LIVE DEMO</button>
+                     <div className='project-button'>
+                     <button className='ProjectBtn'><a href='https://nyirurugoomar.github.io/nyirurugo-omar/index.html'> LIVE DEMO</a></button>
                      <button className='ProjectBtnGit'>Git</button>
+                     </div>
                         <h3>PERSONAL BLOG </h3>
                         
                     </div>

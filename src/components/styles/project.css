@@ -5,8 +5,11 @@
     box-sizing: border-box;
   }
 
-.section-title{
-    text-align: center;
+.section-title h1{
+  text-align: center;
+  color:var(--secondaryColor);
+  font-size: 5rem;
+  margin-top: -4rem;
    
 }
 
@@ -68,6 +71,10 @@
     border: 2px double white;
     border-radius: 10px;
   }
+  .ProjectBtn a{
+    text-decoration: none;
+    color: var(--secondaryColor);
+  }
   
   /* .ProjecBtn:hover{
     background-color: var(--secondaryColor);
@@ -86,7 +93,7 @@
     border: 2px double white;
     border-radius: 10px;
   }
-  .ProjectBtnGit:hover{
+  .ProjectBtnGit:hover {
     background-color: yellow;
     color: #130F40;
   }
@@ -108,27 +115,37 @@
       margin-left: -12rem;
       width: 10rem;
     }
+    #project .project-item{
+      border-style: none;
+    }
   }
 
   @media screen and (max-width:390px){
-    #project .project-items {
-      flex-direction: column;
-      display: flex;
-      justify-content: center;
-      margin-left: -12rem;
-      width: 10rem;
+      #project .project-items {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        margin-left: -12rem;
+        width: 8rem;
+        
+      } 
+      .project-item h3{
+      font-size: 2rem;
+      margin:6rem;
+      color: white;
+    }
+    #project .project-item{
+      border-style: none;
       
-    } 
-    .project-item h3{
-     font-size: 2rem;
-     color: white;
-  }
-  #project .project-item{
-    border-style: none;
-  }
-  .project-info button{
-    justify-content: space-between;
-  }
+    }
+    .project-info button{
+      justify-content: space-between;
+    }
+
+    .project-button button {
+      margin: 2rem 3rem;
+    }
+
   }
 
   @media screen and (max-width:668px){
@@ -138,5 +155,8 @@
       justify-content: center;
       margin-left: -12rem;
       width: 10rem;
+    }
+    #project .project-item{
+      border-style: none;
     }
   }
