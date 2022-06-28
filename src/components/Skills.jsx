@@ -7,9 +7,24 @@ import htmlandcss from '../assets/html and css.png'
 
 function Skills() {
   return (
+      
     <div className='skills-title'>
-        <h1>Skills</h1>
+        
+        <div>
+           <img src={reactlogo} alt='reactlogo'/> 
+        </div>
+        <div>
+            <img src={javascript} alt='javascript'/>
+        </div>
+        <div>
+           <img src={typescript} alt='typescript'/> 
+        </div>
+        <div>
+            <img src={htmlandcss} alt='html and css'/>
+        </div>
+        
     </div>
+     
   )
 }
 

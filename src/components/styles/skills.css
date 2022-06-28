@@ -1,6 +1,31 @@
-.skills-title h1{
+/* .skills-heading h1{
     text-align: center;
     color:var(--secondaryColor);
     font-size: 5rem;
-    margin-top: -7rem;
+    
+} */
+.skills-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* .skills-title img{
+    width: 235px;
+    height: 225px;
+    flex-direction: column;
+} */
+.skills-title div{
+  /* text-align: center;
+  background-color: yellow; */
+    flex: 1;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.skills-title img{
+width: 240px;
+height: 220px;
 }
