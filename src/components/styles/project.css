@@ -136,6 +136,7 @@
     }
     #project .project-item{
       border-style: none;
+      margin-left: 3rem;
       
     }
     .project-info button{

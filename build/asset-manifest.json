@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e45908c9.css",
+    "main.js": "/static/js/main.a4eecdc9.js",
+    "static/media/myPortfolio.png": "/static/media/myPortfolio.d1778c0b0f31c508c137.png",
+    "static/media/projectImage.png": "/static/media/projectImage.8f0bf4f4fa6a9a942737.png",
+    "static/media/movieProject.png": "/static/media/movieProject.5d24c10c2fb0b795ac99.png",
+    "static/media/html and css.png": "/static/media/html and css.257b92357696a9d843b7.png",
+    "static/media/Typescriptlogo.png": "/static/media/Typescriptlogo.c4105801aadf2606ac30.png",
+    "index.html": "/index.html",
+    "main.e45908c9.css.map": "/static/css/main.e45908c9.css.map",
+    "main.a4eecdc9.js.map": "/static/js/main.a4eecdc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e45908c9.css",
+    "static/js/main.a4eecdc9.js"
+  ]
+}

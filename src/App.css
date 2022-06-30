@@ -13,3 +13,10 @@
   --color-subtext: #FF8A71;
   --intro-text:#eee;
 }
+
+@media screen and (max-width:1200px) {
+  .webApp{
+
+  }
+  
+}

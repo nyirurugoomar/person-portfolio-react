@@ -38,7 +38,7 @@ function Project() {
                     <div className="project-info">
                      <img src={projectImage} alt='projectImage'/>
                      <div className='project-button'>
-                     <button className='ProjectBtn'><a href='https://nyirurugoomar.github.io/nyirurugo-omar/index.html'> LIVE DEMO</a></button>
+                     <button className='ProjectBtn'><a href='https://transcendent-speculoos-fc4b75.netlify.app/'> LIVE DEMO</a></button>
                      <button className='ProjectBtnGit'>Git</button>
                      </div>
                         <h3>ARTIFICIAL-I APP</h3>
