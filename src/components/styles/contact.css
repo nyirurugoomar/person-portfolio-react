@@ -1,0 +1,11 @@
+.contact-title{
+    text-align: center;
+}
+.contact-title h1{
+    font-size: 5rem;
+    color: var(--secondaryColor);
+}
+.contact-title p{
+    font-size: 2rem;
+    color: #fff;
+}
