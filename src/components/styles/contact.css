@@ -5,7 +5,32 @@
     font-size: 5rem;
     color: var(--secondaryColor);
 }
-.contact-title p{
+
+.i-text{
+    color: var(--secondaryColor);
     font-size: 2rem;
-    color: #fff;
+    font-weight: 700;
 }
+a{
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+}
+
+.left{
+    margin: 6rem 6rem;
+}
+.right img{
+    width: 542px;
+    height: 542px;
+}
+.contactSection__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+

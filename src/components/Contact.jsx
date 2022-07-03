@@ -1,5 +1,6 @@
 import React from 'react'
 import '../components/styles/contact.css'
+import contactImage from '../assets/contactImage.png'
 
 
 function Contact() {
@@ -9,15 +10,26 @@ function Contact() {
 
             <div className='contact-title'>
                 <h1>Contact</h1>
-                <p>Get in touch</p>
+                
             </div>
 
             <div className='contactSection__wrapper'>
                 <div className='left'>
-                    <div className='icon'></div>
+                  <label className='i-text'>Email address</label>
+                  <br></br>
+                  <a href='mailto:nyirurugoomar@gmail.com'>nyirurugoomar@gmail.com</a>
+                  <br></br>
+                  {/* <h1>nyirurugoomar@gmail.com</h1> */}
+                  <label className='i-text'>Phone number</label>
+                  <h1>+(250)784 418 127</h1>
+                  
+                  <label className='i-text'>Address</label>
+                  
+                  <h1>Kigali,KG 238st</h1>
+                    
                 </div>
                 <div className='right'>
-                    contactForm
+                    <img src={contactImage} alt='contact image'/>
                 </div>
 
             </div>
