@@ -27,7 +27,7 @@ function Intro() {
                  <h3><span ref={textRef}> </span>Developer</h3>
              </div>
              <a href='#portfolio'>
-                 <img src='' alt=''/>
+                 
              </a>
         </div>
     </div>

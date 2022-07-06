@@ -24,7 +24,7 @@ a{
     margin: 6rem 6rem;
 }
 .right img{
-    width: 542px;
+    width: 572px;
     height: 542px;
 }
 .contactSection__wrapper {
@@ -33,4 +33,13 @@ a{
     justify-content: center;
     align-items: center;
 }
-
+@media screen and(max-width:412px) {
+    a{
+        font-size: 1px;
+    }
+    
+  
+    
+    
+    
+}

@@ -102,6 +102,56 @@ span{
     }
     
 }
+
+@media screen and (max-width:390px){
+
+
+
+    .ImgContainer{
+        width: 50rem;
+        height: 700px;
+        margin-bottom: 10rem;
+
+    }
+    .ImgContainer img{
+           
+           height: 20rem;
+           width: 20rem;
+           /* border-radius: 40% 3% 34% 66%/24% 100% 0% 76%  ; */
+           border-radius: 30rem ;
+           background-color: none;
+           align-items: center;
+    }
+    .wrapper {
+        margin-top: -35rem;
+        width: 30rem;
+    }
+    
+}
+
+@media screen and (max-width:412px) {
+    .ImgContainer{
+        width: 50rem;
+        height: 700px;
+        margin-bottom: 10rem;
+
+    }
+    .ImgContainer img{
+           
+        height: 20rem;
+        width: 20rem;
+        /* border-radius: 40% 3% 34% 66%/24% 100% 0% 76%  ; */
+        border-radius: 30rem ;
+        background-color: none;
+        align-items: center;
+ }
+ .wrapper {
+    margin-top: -25rem;
+    width: 30rem;
+}
+
+    
+}
 /* ----------About css --------------- */
 
 

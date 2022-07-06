@@ -45,3 +45,16 @@
         margin-left: 1rem;
     }
 }
+
+@media screen and (max-width:412px) {
+    .about-section_content{
+        margin-left: 1rem;
+    }
+    .about-section_content p{
+        font-size: 1.5rem;
+        justify-content: center;
+        margin-left: 2rem;
+        width: 23rem;
+        
+    }
+}
