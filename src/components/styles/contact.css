@@ -33,13 +33,30 @@ a{
     justify-content: center;
     align-items: center;
 }
-@media screen and(max-width:412px) {
-    a{
-        font-size: 1px;
+@media screen and (max-width:430px) {
+    .contact-title h1{
+          font-size: 3rem;
+          text-align: center;
+          
     }
+.i-text{
+    font-size:1.7em;
     
-  
+}
+.contact-text{
+    font-size: 1.4em;
+}
+a{
+    font-size: 1.4em;
+}
+.left{
+    margin: 4rem 1rem;
+}
     
+.right img{
     
-    
+    width: 400px;
+    height: 400px;
+}
+
 }

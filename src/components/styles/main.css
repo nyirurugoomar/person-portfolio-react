@@ -60,7 +60,8 @@
 .ImgContainer img{
     height: 80%;
     background-color: #eee;
-    border-radius: 97% 3% 34% 66% / 24% 100% 0% 76%  ;
+    /* border-radius: 97% 3% 34% 66% / 24% 100% 0% 76%  ; */
+    border-radius: 30rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -129,9 +130,9 @@ span{
     
 }
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:430px) {
     .ImgContainer{
-        width: 50rem;
+        width: 60rem;
         height: 700px;
         margin-bottom: 10rem;
 
